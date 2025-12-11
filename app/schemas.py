@@ -10,5 +10,5 @@ class AnalyzeResponse(BaseModel):
     segmented_image_url: str
     summary: str
     findings: List[str]
-    recommendations: List[str]
+    recommendations: str
     metadata: Dict[str, Any]
